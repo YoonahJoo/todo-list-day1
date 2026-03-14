@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minimal To-do List</title>
+  <title>Todo List App</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,6 +12,7 @@
       <h1 class="title">To-do List</h1>
       <p class="subtitle">Add your tasks for today ✨</p>
 
+      <!-- Todo input -->
       <form id="todo-form" class="todo-form">
         <input
           id="todo-input"
@@ -24,7 +25,22 @@
 
       <p id="error-message" class="error-message"></p>
 
+      <!-- Filter buttons -->
+      <div class="filter-buttons">
+        <button type="button" class="filter-btn active" data-filter="all">
+          All
+        </button>
+        <button type="button" class="filter-btn" data-filter="active">
+          Active
+        </button>
+        <button type="button" class="filter-btn" data-filter="completed">
+          Completed
+        </button>
+      </div>
+
+      <!-- Todo list -->
       <ul id="todo-list" class="todo-list"></ul>
+
     </section>
   </main>
 

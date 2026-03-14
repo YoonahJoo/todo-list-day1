@@ -77,6 +77,31 @@ body {
   font-size: 13px;
 }
 
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.filter-btn {
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.filter-btn:hover {
+  background: #f2f2f2;
+}
+
+.filter-btn.active {
+  background: #222;
+  color: white;
+  border-color: #222;
+}
+
 .todo-list {
   list-style: none;
   padding: 0;

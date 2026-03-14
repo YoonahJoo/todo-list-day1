@@ -6,6 +6,17 @@ Todo data is stored in **localStorage**, so tasks remain even after refreshing t
 
 ---
 
+## Screenshots
+
+### Main View
+![Todo List Main View](images/todo-main.png)
+
+### Active Tasks Filter
+![Todo List Active Tasks](images/todo-active.png)
+
+### Completed Tasks Filter
+![Todo List Completed Tasks](images/todo-completed.png)
+
 ## Features
 
 - Add new tasks
