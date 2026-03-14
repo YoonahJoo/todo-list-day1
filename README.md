@@ -4,6 +4,10 @@ A simple Todo List web application built with **HTML, CSS, and Vanilla JavaScrip
 Users can add tasks, mark them as completed, delete them, and filter tasks by status.  
 Todo data is stored in **localStorage**, so tasks remain even after refreshing the page.
 
+## Live Demo
+
+[View the live project](https://yoonahjoo.github.io/todo-list-app/)
+
 ---
 
 ## Screenshots
